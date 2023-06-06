@@ -11,7 +11,7 @@
     </div>
 
     <footer class="container mx-auto p-4 flex justify-berween border-t-2">
-      <ul class=" flex gap-4 items-center">
+      <ul class=" flex gap-4 items-center justify-center">
         <li>
           <NuxtLink to="/">Home</NuxtLink>
         </li>

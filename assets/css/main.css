@@ -7,7 +7,10 @@ body {
 }
 
 @layer components {
-.btn {
-  @apply bg-[tomato] text-white px-3 py-2 rounded-xl text-sm;
-}
+  .btn {
+    @apply bg-[tomato] text-white px-3 py-2 rounded-xl text-sm;
+  }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  } 
 }
