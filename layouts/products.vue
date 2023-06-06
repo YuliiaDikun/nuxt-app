@@ -2,26 +2,33 @@
   <div>
     <header>
       <nav>
-        <NuxtLink to="/">Nuxt App</NuxtLink>
-        <ul>
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about">About</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/products">Products</NuxtLink>
-          </li>
-        </ul>
+        <NuxtLink to="/products">Nuxt App Merch</NuxtLink>
       </nav>
     </header>
 
     <div>
       <slot />
     </div>
+
+    <footer>
+      <ul>
+        <li>
+          <NuxtLink to="/">Home</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/about">About</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/products">Products</NuxtLink>
+        </li>
+      </ul>
+    </footer>
   </div>
 </template>
+
+<script setup>
+
+</script>
 
 <style scoped>
 .router-link-exact-active {
@@ -42,4 +49,5 @@ ul {
   list-style: none;
   font-size: 16px;
   line-height: 1.2;
-}</style>
+}
+</style>
