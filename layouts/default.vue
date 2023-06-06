@@ -3,7 +3,7 @@
     <header class="shadow-sm bg-white ">
       <nav class="flex items-center justify-between contsiner mx-auto p-4">
         <NuxtLink to="/" class="font-bold ">Nuxt App</NuxtLink>
-        <ul class=" flex items-center justify-center gap-4 text-base">
+        <ul class=" flex items-center justify-center gap-4 text-base font-semibold">
           <li>
             <NuxtLink to="/">Home</NuxtLink>
           </li>
