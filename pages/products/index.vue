@@ -1,11 +1,11 @@
 <template>
-  <div>
+  
     <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-      <li v-for="p in products">
-        <ProductCard :product="p"/>
+      <li v-for="product in products">
+        <ProductCard :product="product"/>
       </li>
     </ul>
-  </div>
+  
 </template>
 
 <script setup>

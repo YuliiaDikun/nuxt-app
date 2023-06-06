@@ -11,6 +11,6 @@ body {
     @apply bg-[tomato] text-white px-3 py-2 rounded-xl text-sm;
   }
   .card {
-    @apply p-3 rounded-md bg-white shadow-md h-full;
+    @apply flex flex-1 flex-col justify-end p-3 rounded-md bg-white shadow-md h-full;
   } 
 }
