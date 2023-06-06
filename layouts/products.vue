@@ -33,21 +33,12 @@
 <style scoped>
 .router-link-exact-active {
   color: tomato;
+  background: transparent;
+  padding: 6px 12px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  list-style: none;
-  font-size: 16px;
-  line-height: 1.2;
-}
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <ul class="grid grid-cols-4 gap-5">
+        <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             <li v-for="p in products">
                 <NuxtLink :to="`/products/${p.id}`">
                     {{ p.title }}
