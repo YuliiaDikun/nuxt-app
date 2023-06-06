@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-50;
-    
+  @apply bg-gray-50;    
+}
+
+@layer components {
+.btn {
+  @apply bg-[tomato] text-white px-3 py-2 rounded-xl text-sm;
+}
 }
